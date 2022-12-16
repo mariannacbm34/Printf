@@ -6,7 +6,7 @@
 /*   By: marmonte <marmonte@student.42lisboa.com >  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/14 12:07:48 by marmonte          #+#    #+#             */
-/*   Updated: 2022/12/15 15:34:31 by marmonte         ###   ########.fr       */
+/*   Updated: 2022/12/16 14:01:05 by marmonte         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,20 +60,21 @@ int	ft_format(char str, va_list arg)
 	return (len);
 }
 
-// int	main(void)
-// {
-	// void	*ptr = NULL;
+/*int	main(void)
+ {
+	void	*ptr = NULL;
 
-	// printf("meu x = %d\n", ft_printf("%x\n", 12345678));
-	// printf("teu x = %d\n", printf("%x\n", 12345678));
-	// ft_printf("%d\n", 12345678);
-	// printf("%d\n", 12345678);
-	// ft_printf("%s\n", "hello");
-	// printf("%s\n", "hello");
-	// ft_printf("%X\n", 12345678);
-	// printf("%X\n", 12345678);
-	// printf("meu c = %d\n", ft_printf("%c\n", '0'));
-	// printf("teu c = %d\n", printf("%c\n", '0'));
-	// ft_printf("%p\n", &ptr);
-	// printf("%p\n", &ptr);
-// }
+	printf("meu x = %d\n", ft_printf("%x\n", 12345678));
+	printf("teu x = %d\n", printf("%x\n", 12345678));
+	ft_printf("%d\n", 12345678);
+	printf("%d\n", 12345678);
+	ft_printf("%s\n", "hello");
+	printf("%s\n", "hello");
+	ft_printf("%X\n", 12345678);
+	printf("%X\n", 12345678);
+	printf("meu c = %d\n", ft_printf("%c\n", '0'));
+	printf("teu c = %d\n", printf("%c\n", '0'));
+	ft_printf("%p\n", &ptr);
+	printf("%p\n", &ptr);
+}
+*/
